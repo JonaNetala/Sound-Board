@@ -1,0 +1,59 @@
+/* Pushing final changes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(161, 100, 223);
+  transition: background-color 0.8s ease-in-out; /* Smooth transition for background color */
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* For Button Styling */
+.btn {
+  background-color: rebeccapurple;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Hover Effect: Slight Glow */
+.btn:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.4);
+}
+
+/* Click Effect: Enlarges briefly */
+.btn:active {
+  transform: scale(1.1);
+}
+
+/* Glow Effect when clicked */
+.glow-effect {
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+}
+
+/* Buttons Container */
+#buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
